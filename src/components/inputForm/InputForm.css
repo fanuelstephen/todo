@@ -1,0 +1,93 @@
+.form_content {
+  background-color: #19181c;
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+  padding: 20px 30px;
+  border-radius: 25px;
+  color: #fff;
+  position: relative;
+  height: 563px;
+}
+.form_heading,
+.form_note {
+  margin-bottom: 30px;
+}
+input {
+  padding: 5px 20px;
+  outline: none;
+  width: 100%;
+  border-radius: 7px;
+  border: none;
+  color: white;
+  background-color: #2f2c37;
+}
+textarea {
+  width: 100%;
+  border-radius: 7px;
+  height: 130px;
+  padding: 20px 12.9px;
+  border: none;
+  outline: none;
+  color: white;
+  background-color: #2f2c37;
+}
+textarea:focus-visible {
+  outline: #2f2c37;
+}
+.form_info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 8.42rem;
+}
+.star_icon,
+.input_icon {
+  margin-top: 20px;
+  font-size: 18px;
+}
+.addButton {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.btn_icon {
+  font-size: 20px;
+  cursor: pointer;
+  transition: all 0.5s ease-out;
+}
+
+/* .btn_icon:hover {
+  color: #fff;
+  transform: scale(1.2);
+} */
+.addBtn {
+  font-size: 20px;
+  color: #fff;
+  border: none;
+  background: #744df7;
+  padding: 10px 25px;
+  border-radius: 20px;
+  font-size: 16px;
+  font-weight: bold;
+  transition: all 0.1s ease;
+  cursor: pointer;
+}
+/* when the background is white */
+.form_content-white {
+  background-color: #e5eef8;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+.baddBtntn-w {
+  background-color: #f8877a;
+  color: black;
+}
+.input_bg {
+  background-color: #d3dfe2;
+  color: black;
+}
+.star_icon_w {
+  color: #f8877a;
+}
+.btn_icon-w {
+  color: #19181c;
+}

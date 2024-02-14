@@ -1,0 +1,90 @@
+.filter {
+  /* width: 30%; */
+  background-color: #19181c;
+  padding: 20px 23px;
+  border-radius: 25px;
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+  height: 563px;
+}
+.filter-content,
+.project {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+h4 {
+  font-size: 20px;
+  color: #8e91d6;
+}
+.toggle_icon,
+.project_icon {
+  color: #f8f5f54d;
+  font-size: 30px;
+  cursor: pointer;
+}
+.content {
+  margin-bottom: 50px;
+  color: #84859c;
+}
+.content ul {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.content ul li {
+  display: flex;
+  align-items: center;
+  padding: 7px 9px;
+  border-radius: 8px;
+  gap: 10px;
+  transition: all 0.5s ease;
+  cursor: pointer;
+}
+.content ul li:hover {
+  background-color: #2f2c37;
+}
+.filter_icon {
+  font-size: 18px;
+}
+.default {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: #84859c;
+  margin-left: 5px;
+  padding: 5px 10px;
+  border-radius: 8px;
+  transition: all 0.5s ease;
+  margin-bottom: 7.6rem;
+}
+.default:hover {
+  background-color: #2f2c37;
+}
+.github {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.github_icon {
+  font-size: 30px;
+  color: #edededaa;
+}
+/* after background turn white */
+.filter_white {
+  background-color: #e5eef8;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+.active {
+  color: #ff8283;
+}
+.item_Hover ul li:hover {
+  background-color: #d3dfe2;
+}
+.default2:hover {
+  background-color: #d3dfe2;
+}
+.github_icon-w {
+  color: #6e6e6eaa;
+}
